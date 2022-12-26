@@ -92,7 +92,7 @@ body {
 /* Type */
 body, input, select, textarea {
   color: #545a5f;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 13pt;
   font-weight: 400;
   line-height: 1.65; }
@@ -132,7 +132,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #3d4449;
-  font-family: "Roboto Slab", serif;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-weight: 700;
   line-height: 1.5;
   margin: 0 0 1em 0; }
@@ -196,14 +196,14 @@ code {
   background: rgba(230, 235, 237, 0.25);
   border-radius: 0.375em;
   border: solid 1px rgba(210, 215, 217, 0.75);
-  font-family: "Courier New", monospace;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 0.9em;
   margin: 0 0.25em;
   padding: 0.25em 0.65em; }
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "Courier New", monospace;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 0.9em;
   margin: 0 0 2em 0; }
   pre code {
@@ -990,7 +990,7 @@ section.special, article.special {
   text-align: center; }
 
 header p {
-  font-family: "Roboto Slab", serif;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -1499,7 +1499,7 @@ button,
   color: #6becf5 !important;
   cursor: pointer;
   display: inline-block;
-  font-family: "Roboto Slab", serif;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 0.8em;
   font-weight: 700;
   height: 3.5em;
@@ -2075,7 +2075,7 @@ button,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border-bottom: solid 5px #812304;
+  border-bottom: solid 5px #e5d2cc;
   padding: 6em 0 1em 0;
   position: relative; }
   #header > * {
@@ -2087,7 +2087,7 @@ button,
   #header .logo {
     border-bottom: 0;
     color: inherit;
-    font-family: "Roboto Slab", serif;
+    font-family: "Lucida Console", "Courier New", monospace;
     font-size: 1.125em; }
   #header .icons {
     text-align: right; }
