@@ -15,6 +15,10 @@
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
+<style>
+  .contain {object-fit: contain;}
+</style>
+  
 <body class="is-preload">
 
   <!-- Wrapper -->
@@ -69,9 +73,8 @@
             <div class="container">
               <div class="avatar">
                 <a href="https://medemir.github.io/">
-                  <img
-                    src="https://storage.googleapis.com/replit/images/1670705470903_137d2cbfbb45a648022a39b98cf77415.png"
-                    alt="Enes" />
+                  <img  class="contain"              src="https://storage.googleapis.com/replit/images/1670705470903_137d2cbfbb45a648022a39b98cf77415.png"
+                    alt="Enes" style="width:400px;height:450px" />
                 </a>
               </div>
               <div class="content">
@@ -111,7 +114,7 @@
             <article>
               <span class="icon solid fa-signal"></span>
               <div class="content">
-                <h3> Geo related career</h3>
+                <h3> Geo relevant career</h3>
                 <p>I'm going to learn FME, GIS and GeoMedia.</p>
               </div>
             </article>
@@ -141,10 +144,15 @@
                 <li><a href="machine_learning.html" class="button">More</a></li>
               </ul>
             </article>
-            <!--             <<ul class="actions">
+<!--             <article>
+              <a href="#" class="image"><img src="images/learningmachine.jpg" alt="" /></a>
+              <h3>Applied Machine Learning Project</h3>
+              <p> Two thousand sound records classification</p>
+            
+                        <<ul class="actions">
                 <li><a href="#" class="button">More</a></li>
-              </ul> -->
-            </article>
+              </ul>
+            </article> -->
           </div>
         </section>
 
@@ -161,6 +169,21 @@
           <form method="post" action="#">
             <input type="text" name="query" id="query" placeholder="Search" />
           </form>
+              <script>
+      const f = document.getElementById('form');
+      const q = document.getElementById('query');
+      const google = 'https://www.google.com/search?q=site%3A+';
+      const site = 'https://medemir.github.io/';
+
+      function submitted(event) {
+        event.preventDefault();
+        const url = google + site + '+' + q.value;
+        const win = window.open(url, '_blank');
+        win.focus();
+      }
+
+      f.addEventListener('submit', submitted);
+    </script>
         </section>
 
         <!-- Menu -->
@@ -169,19 +192,19 @@
             <h2>Menu</h2>
           </header>
           <ul>
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="generic.html">Generic</a></li>
-            <li><a href="enes.html">Trial Page</a></li>
+<!--             <li><a href="index.html">Homepage</a></li> -->
+<!--             <li><a href="generic.html">Generic</a></li> -->
+<!--             <li><a href="enes.html">Trial Page</a></li> -->
             <li>
-              <span class="opener">Submenu</span>
+              <span class="opener">Readings</span>
               <ul>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Goals</a></li>
+                <li><a href="geoai.html">My Notes from GeoAI Paper</a></li>
+<!--                 <li><a href="#">Goals</a></li>
                 <li><a href="#">Math Projects</a></li>
-                <li><a href="#">Creativity</a></li>
+                <li><a href="#">Creativity</a></li> -->
               </ul>
             </li>
-            <li><a href="#">Experience</a></li>
+<!--             <li><a href="#">Experience</a></li>
             <li><a href="#">Education</a></li>
             <li>
               <span class="opener">Completed MSc Smart Systems Projects</span>
@@ -192,10 +215,10 @@
                 <li><a href="#">Smart Traffic Control System</a></li>
                 <li><a href="#">ESKA smart cartboard project</a></li>
               </ul>
-            </li>
-            <li><a href="#">Who I'm?</a></li>
+            </li> -->
+<!--             <li><a href="#">Who I'm?</a></li>
             <li><a href="#">Why I love science?</a></li>
-            <li><a href="#">Why I published this website?</a></li>
+            <li><a href="#">Why I published this website?</a></li> -->
           </ul>
         </nav>
 
@@ -206,7 +229,7 @@
           </header>
           <div class="mini-posts">
             <article>
-              <a href="#" class="image"><img src="images/thisisengineering-raeng-mWc8xsxFCLc-unsplash.jpg" alt="" /></a>
+              <a href="" class="image"><img src="images/thisisengineering-raeng-mWc8xsxFCLc-unsplash.jpg" alt="" /></a>
               <p>What is Geomatics Engineering?</p>
             </article>
             <!--                     <article>

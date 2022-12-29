@@ -1213,7 +1213,7 @@ input[type="radio"] + label:before {
 /* Image */
 .image {
   border-radius: 0.375em;
-  border: 0;
+  border: 1;
   display: inline-block;
   position: relative; }
   .image img {
@@ -1239,6 +1239,7 @@ input[type="radio"] + label:before {
       width: 75%; }
   .image.main {
     display: block;
+    
     margin: 0 0 3em 0;
     width: 75%; }
     .image.main img {
@@ -1911,7 +1912,7 @@ button,
     right: 0;
     text-align: center;
     top: 0;
-    width: 2em; }
+    width: 0em; }
   #search form input[type="text"] {
     padding-right: 2.75em; }
 
@@ -2048,13 +2049,13 @@ button,
           font-size: 1.5rem;
           margin-left: -0.4375em; }
       body.is-preload #sidebar {
-        display: none; } }
+        display: block; } }
   @media screen and (max-width: 736px) {
     #sidebar .toggle {
       text-indent: 7.25em;
       width: 7.25em; }
       #sidebar .toggle:before {
-        color: #24b8cc;
+        color: #0c5f6a;
         margin-left: -0.0625em;
         margin-top: -0.25em;
         font-size: 1.1rem;
@@ -2187,7 +2188,7 @@ button,
 
 /* Footer */
 #footer .copyright {
-  color: #d7e2ea;
+  color: #184363;
   font-size: 0.9em; }
   #footer .copyright a {
     color: inherit; }
@@ -2214,7 +2215,7 @@ button,
     font-size: 0.9em;
     padding: 0.625em 0; }
     #menu ul a:hover, #menu ul span:hover {
-      color: #6be5f5; }
+      color: #104a51; }
     #menu ul a.opener, #menu ul span.opener {
       -moz-transition: color 0.2s ease-in-out;
       -webkit-transition: color 0.2s ease-in-out;
@@ -2239,12 +2240,12 @@ button,
         -webkit-transition: color 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
         -ms-transition: color 0.2s ease-in-out, -ms-transform 0.2s ease-in-out;
         transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
-        color: #cfe3f2;
+        color: #08416d;
         content: '\f078';
         position: absolute;
         right: 0; }
       #menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-        color: #6bdef5; }
+        color: #125e6d; }
       #menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
         display: block; }
       #menu ul a.opener.active:before, #menu ul span.opener.active:before {
@@ -2258,7 +2259,7 @@ button,
   margin: 0.5em 0 0 0;
   padding: 0.5em 0 0 0; }
   #menu > ul > li > ul {
-    color: #d8e4ee;
+    color: #174469;
     display: none;
     margin: 0.5em 0 1.5em 0;
     padding-left: 1em; }
