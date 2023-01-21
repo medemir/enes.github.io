@@ -72,7 +72,7 @@
 
           </figure>
           <hr class="major" />
-          <h2>So let's Start!</h2>
+          <h3>So let's Start!</h3>
 
           <head>
             <meta charset='UTF-8'>
@@ -1530,67 +1530,105 @@
                 background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0));
               }
             </style>
-            <title>My Notes For GeoAI Paper</title>
-          </head>
-
-          <body class='typora-export os-windows'>
-            <div class='typora-export-content'>
-              <div id='write' class=''>
-                <h2
-                  id='a-review-of-artificial-intelligence-approaches-for-the-interpretation-of-complex-geomatics-data'>
-                  <span>a review of artificial intelligence approaches for the interpretation of complex geomatics
-                    data</span>
-                </h2>
-                <h3 id='research-questions'><span>Research Questions</span></h3>
-                <blockquote>
-                  <p><span> In particular, the purposes, issues, and motivations of this study were investigated to set
-                      the following research questions (RQs).</span></p>
-                </blockquote>
-                <ul>
-                  <li>
-                    <p><span>RQ1</span></p>
-                    <p><span>To explore the most commonly used methodologies in recent years for dealing with geomatics
-                        data, the following question has been set: </span><em><strong><span>among the well-established
-                            AI methods, which is the most commonly used in geomatics?</span></strong></em></p>
-                  </li>
-                  <li>
-                    <p><span>RQ2</span></p>
-                    <p><span>To understand if the methodologies used depend on the processed data, the following
-                        question arises: </span><em><strong><span>do geomatics data influence the choice of using one
-                            methodology rather than another?</span></strong></em></p>
-                  </li>
-                  <li>
-                    <p><span>RQ3</span></p>
-                    <p><span>To provide an overview of the main tasks performed using geomatics data, the following
-                        question must be answered: </span><em><strong><span>for which tasks are geomatics data
-                            used?</span></strong></em></p>
-                  </li>
-                  <li>
-                    <p><span>RQ4</span></p>
-                    <p><span>To better understand which type of geomatic data is used in different application domains,
-                        the following question arises: </span><em><strong><span>are there relationships between
-                            application domains and geomatics data?</span></strong></em></p>
-                  </li>
-                </ul>
-                <p>&nbsp;</p>
-                <h3 id='what-is-geomatics'><span>What is Geomatics?</span></h3>
-                <blockquote>
-                  <p><span> </span><strong><span>Geomatics</span></strong><span> is a discipline that deals with the
-                      automated processing and management of complex 2D or 3D information. It is defined as a
-                      multidisciplinary, systemic, and integrated approach that allows collecting, storing, integrating,
-                      modelling, and analysing spatially georeferenced data from several sources, with well-defined
-                      accuracy characteristics and continuity, in a digital format (</span><a
-                      href='https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx40'><span>Gomarasca</span></a><span>,
-                    </span><a
-                      href='https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx40'><span>2010</span></a><span>).</span>
-                  </p>
-                </blockquote>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-              </div>
-            </div>
-          </body>
-
+           <body class="stackedit">
+  <div class="stackedit__html"><p></p>
+<h1 id="a-review-of-artificial-intelligence-approaches-for-the-interpretation-of-complex-geomatics-data"> <br>A review of artificial intelligence approaches for the interpretation of complex geomatics data</br></h1>
+<p>This paper presents following topics:</p>
+<ul>
+<li>related works on the application of AI methods to the geomatics data</li>
+<li>summary of the concepts, existing techniques, and important applications of GeoAI.</li>
+</ul>
+<p>In particular, the purposes, issues, and motivations of this study were investigated to set the following research questions (RQs).</p>
+<ul>
+<li>
+<p>RQ1</p>
+<p><strong>Among the well-established AI methods, which is the most commonly used in geomatics?</strong></p>
+</li>
+<li>
+<p>RQ2</p>
+<p><em><strong>Do geomatics data influence the choice of using one methodology rather than another?</strong></em></p>
+</li>
+<li>
+<p>RQ3</p>
+<p><em><strong>For which tasks are geomatics data used?</strong></em></p>
+</li>
+<li>
+<p>RQ4</p>
+<p><em><strong>Are there relationships between application domains and geomatics data?</strong></em></p>
+</li>
+</ul>
+<h3 id="what-is-geomatics">What is Geomatics?</h3>
+<blockquote>
+<p><strong>Geomatics</strong> is a discipline that deals with the automated processing and management of complex 2D or 3D information. It is defined as a multidisciplinary, systemic, and integrated approach that allows collecting, storing, integrating, modelling, and analysing spatially georeferenced data from several sources, with well-defined accuracy characteristics and continuity, in a digital format (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx40">Gomarasca</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx40">2010</a>).</p>
+</blockquote>
+<h2 id="algorithms-and-models-for-geoai">Algorithms and Models for GeoAI</h2>
+<p>AI and it’s subsets ML and DL  clearly changed the game in data analysis.<br>
+DL has taken key features of the ML model and has even taken it one step further by constantly teaching itself new abilities and adjusting existing ones (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx65">LeCun et al.</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx65">2015</a>).The most cited definition of ML is by Mitchell: “It is said that a program learns from experience E with reference to certain classes of tasks T and with performance measurement P, if its performance in task T, as measured by P, they improve with experience E” (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx89">Mitchell</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx89">1997</a>).<br>
+<em>The purpose of DL algorithms</em> is to replicate the functioning of the human brain by understanding the path that information takes inside and the way it interprets images and natural language. Therefore, DL architectures have found great application in image classification. In this application we can see the biggest differences between ML and DL.<br>
+In fact, an ML workflow is started with the manual extraction of significant features from images, so the extracted features allow the creation of a model to categorise objects in the image. Unlike in DL, the feature extraction from images is automatically done and an end-to-end learning is performed in which a network independently learns how to process data and perform an activity.<br>
+The main geomatics tasks solved with ML and DL models can be summarised as follows:</p>
+<ul>
+<li>
+<p><strong>Clustering</strong> (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx111">Shi and Pun-Cheng</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx111">2019</a>);</p>
+<ul>
+<li>
+<p>Clustering is a process of grouping homogeneous elements, based on some characteristics, in a dataset. This operation in everyday life has an unlimited number of applications and is put into practice every time any grouping is carried out (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx15">Boongoen and Iam-On</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx15">2018</a>).</p>
+</li>
+<li>
+<p>The various clustering methods include the following.</p>
+<ul>
+<li>
+<p>The first is a  <em>connection method</em>, such as linkage, which is a hierarchical method suitable for grouping both variables and observations (single linkage based on the minimum distance, complete linkage based on maximum distance, and average linkage based on average distance).</p>
+</li>
+<li>
+<p>The second is a  <em>k-means method</em>, which is a non-hierarchical and vector quantisation method that partitions  <em>n</em>  observations into  <em>k</em>  clusters, in which each observation belongs to the cluster with the nearest mean (cluster centres), working as a prototype of the cluster.</p>
+</li>
+<li>
+<p>The last is a  <em>spectral cluster</em>, which is an approach with origins in graph theory wherein the method is used to classify communities of nodes in a graph based on the edges connecting them. The process is adaptable and allows clustering non-graph data.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Classification and prediction</strong> (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx57">Jiang</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx57">2018</a>);</p>
+<ul>
+<li>Classification is the process of learning a certain target function <em>f</em>, which maps an input vector <strong><em>x</em></strong> to one of the predefined labels <strong><em>y</em></strong>. The target function is also referred to as the classification model (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx117">Tan et al.</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx117">2016</a>).</li>
+<li>A classification model generated through a learning algorithm must be able to adapt correctly to the input data but also, and more importantly, to correctly predict record class labels that it has never seen before. That is, the key objective of the learning algorithm is to build models with good generalisation skills.</li>
+</ul>
+</li>
+<li>
+<p><strong>Object detection</strong> (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx69">K. Li et al.</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx69">2020</a>);</p>
+<ul>
+<li>Object detection is the basis of many applications for computer vision, such as instance segmentation, image captioning, and object tracking. From an application point of view, it is possible to group object detection into two categories: “general object detection” and “detection applications” (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx74">Liu et al.</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx74">2020</a>).</li>
+<li>Currently, the models for object detection can be divided <strong>into two macro-categories:</strong> two-stage and one-stage detectors. Two-stage models divide the task of identifying objects into several phases, following a “coarse-to-fine” policy. One-stage models complete the recognition process in a single step with the use of a single network.</li>
+</ul>
+</li>
+<li>
+<p><strong>Segmentation</strong> (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx88">Minaee et al.</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx88">2021</a>);</p>
+<ul>
+<li>Segmentation is the process that divides an image into separate portions (segments) that are groupings of neighbouring pixels that have similar characteristics, such as brightness, colour, and texture. The purpose of segmentation is to automatically extract all the objects of interest contained in an image; it is a complex problem due to the difficult management of the multitude of semantic contents (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx114">Sultana et al.</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx114">2020</a>).</li>
+</ul>
+</li>
+<li>
+<p><strong>Part segmentation</strong> (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx1">Adegun et al.</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx1">2018</a>);</p>
+</li>
+<li>
+<p><strong>Semantic segmentation</strong> (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx142">Yuan et al.</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx142">2021</a>).</p>
+<ul>
+<li>
+<p>Semantic segmentation can be a useful alternative to object detection, as it allows the object of interest to cover multiple areas of the image at the pixel level. This technique detects irregularly shaped objects, unlike object detection, whereby objects must fit into a bounding box (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx33">Felicetti et al.</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx33">2021</a>).</p>
+</li>
+<li>
+<p>Semantic segmentation of point clouds is also an important step for understanding 3D scenes. For this reason, it has received increasing attention in recent years and a lot of AI approaches have been proposed to automatically identify objects (<a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx145">J. Zhang et al.</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx145">2019</a>;  <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx82">Malinverni et al.</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx82">2019</a>;  <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx98">Paolanti et al.</a>, <a href="https://gi.copernicus.org/articles/11/195/2022/#bib1.bibx98">2019</a>).</p>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="various-types-of-sensors-for-data-acquisition">Various types of sensors for data acquisition</h1>
+<p>Will come soon…</p>
+</div>
+</body>
 
 
 
