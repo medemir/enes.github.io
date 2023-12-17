@@ -1,208 +1,107 @@
-<!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+                                      <!DOCTYPE html>
+                                      <html lang="en">
+                                      <head>
+                                          <meta charset="UTF-8">
+                                          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                          <title>Modern GIS Portfolio</title>
+                                          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+                                          <style>
+                                              body {
+                                                  background-color: #9bdfd1;
+                                                  color: #333;
+                                                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                                  margin: 0;
+                                                  padding: 0;
+                                              }
 
-<head>
-  <title>Enes Demir</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-</head>
+                                              header {
+                                                  background-color: #9bdfd1;
+                                                  color: #fff;
+                                                  text-align: center;
+                                                  padding: 2em 0;
+                                              }
 
-<style>
-  .contain {
-    object-fit: contain;
-  }
-</style>
+                                              section {
+                                                  max-width: 800px;
+                                                  margin: 20px auto;
+                                                  padding: 20px;
+                                                  background-color: #9bdfd1;
+                                                  border-radius: 8px;
+                                                  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                                              }
 
+                                              h1, h2 {
+                                                  color: #3498db;
+                                              }
 
-<body class="is-preload">
+                                              p {
+                                                  line-height: 1.6;
+                                              }
 
-  <!-- Wrapper -->
-  <div id="wrapper">
+                                              .project-card {
+                                                  margin-bottom: 20px;
+                                                  border: 1px solid #ddd;
+                                                  border-radius: 8px;
+                                                  overflow: hidden;
+                                                  transition: transform 0.3s;
+                                              }
 
-    <!-- Main -->
-    <div id="main">
-      <div class="inner">
+                                              .project-card:hover {
+                                                  transform: scale(1.05);
+                                              }
 
-        <!-- Header -->
-        <header id="header">
-          <!--tag-->
-          <a href="index.html" class="logo"><strong>Enes Demir</strong> <br /> Geomatics and Smart Systems</a>
-          <ul class="icons">
-            <li><a href="https://github.com/medemir?tab=repositories"><span
-                  class="icon brands fa-github">Github</span></a></li>
+                                              footer {
+                                                  background-color: #9bdfd1;
+                                                  color: #fff;
+                                                  text-align: center;
+                                                  padding: 1em 0;
+                                                  position: fixed;
+                                                  bottom: 0;
+                                                  width: 100%;
+                                              }
+                                          </style>
+                                      </head>
+                                      <body>
 
-            <li><a href="https://replit.com/@medemir" class="icon brands fa-">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M7 5.5C7 4.67157 7.67157 4 8.5 4H15.5C16.3284 4 17 4.67157 17 5.5V12H8.5C7.67157 12 7 11.3284 7 10.5V5.5Z"
-                    fill="#F26207"></path>
-                  <path d="M17 12H25.5C26.3284 12 27 12.6716 27 13.5V18.5C27 19.3284 26.3284 20 25.5 20H17V12Z"
-                    fill="#F26207"></path>
-                  <path
-                    d="M7 21.5C7 20.6716 7.67157 20 8.5 20H17V26.5C17 27.3284 16.3284 28 15.5 28H8.5C7.67157 28 7 27.3284 7 26.5V21.5Z"
-                    fill="#F26207"></path>
-                </svg>
-                <span class="label">Replit</span></a></li>
-            <!--<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>-->
-          </ul>
-          <script data-name="BMC-Widget" data-cfasync="false"
-            src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="enesdemir"
-            data-description="Support me on Buy me a coffee!" data-message="" data-color="#ff813f" data-position="Right"
-            data-x_margin="18" data-y_margin="18"></script>
-        </header>
+                                          <header>
+                                              <h1>GIS Portfolio</h1>
+                                              <p>Your Name</p>
+                                          </header>
 
-        <!-- Content -->
-        <section>
-          <header class="main">
-            <h1>Generic</h1>
-          </header>
-          <figure>
-          <span class="image main"> <img src="images/reading2.jpg" alt="Readings"
-              style="width:950px;height:550px" /></span>
+                                          <section>
+                                              <h2>About Me</h2>
+                                              <p>Write a brief introduction about yourself and your experience in GIS.</p>
+                                          </section>
 
-            <figcaption>29-12-2022 Thursday </figcaption> 
-            <li><a href="#">medemir</a></li>
-          
-          </figure>
-          <p></p>
+                                          <section>
+                                              <h2>Projects</h2>
+                                              <div class="card-deck">
+                                                  <div class="card project-card">
+                                                      <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 1">
+                                                      <div class="card-body">
+                                                          <h5 class="card-title">Project 1</h5>
+                                                          <p class="card-text">Description of Project 1.</p>
+                                                      </div>
+                                                  </div>
+                                                  <div class="card project-card">
+                                                      <img src="https://via.placeholder.com/300" class="card-img-top" alt="Project 2">
+                                                      <div class="card-body">
+                                                          <h5 class="card-title">Project 2</h5>
+                                                          <p class="card-text">Description of Project 2.</p>
+                                                      </div>
+                                                  </div>
+                                                  <!-- Add more project cards as needed -->
+                                              </div>
+                                          </section>
 
-          <!--           <hr class="major" />
-<figure>
-    <img src='image.jpg' alt='missing' />
-    <figcaption>Caption goes here</figcaption>
-</figure>
-          <h2>Interdum sed dapibus</h2>
-          <p> </p> -->
+                                          <section>
+                                              <h2>Contact</h2>
+                                              <p>Provide your contact information and links to your social media profiles.</p>
+                                          </section>
 
-        </section>
+                                          <footer>
+                                              <p>&copy; 2023 GIS Portfolio. All rights reserved.</p>
+                                          </footer>
 
-      </div>
-    </div>
-
-  <!-- Sidebar -->
-
-    <div id="sidebar">
-      <div class="inner">
-
-        <!-- Search -->
-        <section id="search" class="alt">
-          <form method="post" action="#">
-            <input type="text" name="query" id="query" placeholder="Search" />
-          </form>
-          <script>
-            const f = document.getElementById('form');
-            const q = document.getElementById('query');
-            const google = 'https://www.google.com/search?q=site%3A+';
-            const site = 'https://medemir.github.io/';
-
-            function submitted(event) {
-              event.preventDefault();
-              const url = google + site + '+' + q.value;
-              const win = window.open(url, '_blank');
-              win.focus();
-            }
-
-            f.addEventListener('submit', submitted);
-          </script>
-        </section>
-
-        <!-- Menu -->
-        <nav id="menu">
-          <header class="major">
-            <h2>Menu</h2>
-          </header>
-          <ul>
-            <!--             <li><a href="index.html">Homepage</a></li> -->
-            <!--             <li><a href="generic.html">Generic</a></li> -->
-            <!--             <li><a href="enes.html">Trial Page</a></li> -->
-            <li>
-              <span class="opener">Readings</span>
-              <ul>
-                <li><a href="geoai.html">My Notes from GeoAI Paper</a></li>
-                <!--                 <li><a href="#">Goals</a></li>
-                <li><a href="#">Math Projects</a></li>
-                <li><a href="#">Creativity</a></li> -->
-              </ul>
-            </li>
-            <!--             <li><a href="#">Experience</a></li>
-            <li><a href="#">Education</a></li>
-            <li>
-              <span class="opener">Completed MSc Smart Systems Projects</span>
-              <ul>
-                <li><a href="#">2000 sounds classification</a></li>
-                <li><a href="#">Indoor Navigation</a></li>
-                <li><a href="#">Elderly People Tracking with Sensors</a></li>
-                <li><a href="#">Smart Traffic Control System</a></li>
-                <li><a href="#">ESKA smart cartboard project</a></li>
-              </ul>
-            </li> -->
-            <!--             <li><a href="#">Who I'm?</a></li>
-            <li><a href="#">Why I love science?</a></li>
-            <li><a href="#">Why I published this website?</a></li> -->
-          </ul>
-        </nav>
-
-        <!-- Section -->
-        <section>
-          <header class="major">
-            <h2>Information Center</h2>
-          </header>
-          <div class="mini-posts">
-            <article>
-              <a href="#" class="image"><img src="images/thisisengineering-raeng-mWc8xsxFCLc-unsplash.jpg" alt="" /></a>
-              <p>What is Geomatics Engineering?</p>
-            </article>
-            <!--                     <article>
-                      <a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-                      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-                    </article>
-                    <article>
-                      <a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-                      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-                    </article>
-                  </div>
-                  <ul class="actions">
-                    <li><a href="#" class="button">More</a></li>
-                  </ul> -->
-        </section>
-
-        <!-- Section -->
-        <section>
-          <header class="major">
-            <h2>Get in touch</h2>
-          </header>
-          <p>If you have any questions, please don't hesitate to get contact with me! </p>
-          <ul class="contact">
-            <li class="icon solid fa-envelope"><a
-                href="mailto:enesdemirpersonal@gmail.com">enesdemirpersonal@gmail.com</a></li>
-            <!--<li class="icon solid fa-phone"><a href=""></a></li>
-            <li class="icon solid fa-home"> --> <br />
-            </li>
-          </ul>
-        </section>
-
-        <!-- Footer -->
-        <footer id="footer">
-          <p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a
-              href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-        </footer>
-
-      </div>
-    </div>
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+                                      </body>
+                                      </html>
